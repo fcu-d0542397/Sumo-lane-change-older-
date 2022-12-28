@@ -12,7 +12,7 @@ from scipy.optimize import fsolve
 
 sumoBinary = "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo-gui.exe"
 sumoCmd = [sumoBinary, "-c",
-           "C:\\Users\\user\\Desktop\\sumo\\laneChange\\space-4.3\\myConfig.sumocfg"]
+           "C:\\Users\\user\\Desktop\\sumo\\laneChange\\space-older\\myConfig.sumocfg"]
 traci.start(sumoCmd)
 
 # traci start
